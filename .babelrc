@@ -4,7 +4,24 @@
     [
       "babel-plugin-root-import",
       {
-        "rootPathSuffix": "src"
+        "paths": [
+          {
+            "rootPathPrefix": "~",
+            "rootPathSuffix": "./src"
+          },
+          {
+            "rootPathPrefix": "@",
+            "rootPathSuffix": "./src/components"
+          },
+          {
+            "rootPathPrefix": "#",
+            "rootPathSuffix": "./src/images"
+          },
+          {
+            "rootPathPrefix": "!",
+            "rootPathSuffix": "./src/screens"
+          }
+        ]
       }
     ]
   ],
@@ -14,7 +31,24 @@
         [
           "babel-plugin-root-import",
           {
-            "rootPathSuffix": "src"
+            "paths": [
+              {
+                "rootPathPrefix": "~",
+                "rootPathSuffix": "./src"
+              },
+              {
+                "rootPathPrefix": "@",
+                "rootPathSuffix": "./src/components"
+              },
+              {
+                "rootPathPrefix": "#",
+                "rootPathSuffix": "./src/images"
+              },
+              {
+                "rootPathPrefix": "!",
+                "rootPathSuffix": "./src/screens"
+              }
+            ]
           }
         ]
       ]
